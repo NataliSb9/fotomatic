@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 760px) {
@@ -38,6 +39,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -116,17 +118,16 @@ header .mobile {
 
 /* Sign Up Section */
 
-.banner {
-  background-image: url("../images/banner-landingpage.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
-}
+
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
 
 #sign-up-cta {
@@ -166,13 +167,14 @@ header .mobile {
 
 #sign-up-cta .striking {
   font-family: "Rubik", sans-serif;
-  font-size: 3.125rem;
   padding-bottom: .75rem;
 }
 
 #sign-up-cta .button {
+
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+
 }
 
 @media only screen and (max-width: 760px) {
