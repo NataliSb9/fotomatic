@@ -48,6 +48,7 @@ header {
 
 header .content {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 1.875rem;
   margin-right:1.876rem ;
@@ -356,13 +357,17 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 5rem 0;
 }
 
 #quotes-section content {
   padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -371,7 +376,7 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
