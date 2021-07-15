@@ -120,8 +120,7 @@ header .mobile {
   background-image: url("../images/banner-landingpage.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #9dc20b;
+  background-size: cover; 
 }
 #sign-up-section {
   display: flex;
@@ -135,6 +134,8 @@ header .mobile {
   border: solid 1px #979797;
   border-radius: 4px;
   background-color: #9dc20b;
+  margin-top: 10.625rem;
+  margin-left: 4.54rem;
 }
 
 #sign-up-cta .content {
